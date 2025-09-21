@@ -1,0 +1,30 @@
+# GPT-2.0 中文对话模型训练套件依赖包
+
+# 核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.3.0
+
+# 可视化
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 进度条
+tqdm>=4.64.0
+
+# 其他工具
+json5>=0.9.0
+scikit-learn>=1.0.0
+
+# 可选依赖 (用于GPU加速)
+# torch-directml  # AMD GPU支持 (Windows)
+# tensorboard     # 训练监控
+
+# 开发依赖
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
